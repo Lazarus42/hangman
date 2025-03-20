@@ -11,6 +11,6 @@ The strategy used is:
 
 Training took around 12 hours on a v4-8 TPU generously provided by Google's TPU Research Cloud Program.
 
-I'm not including the weights or the exact word list used, although it is a subset of the words linked above, for two reasons: first, this challenge was given to me by a company, and to 
-maintain some semblance of fairness, I won't post the weights or the exact word list; second, the weights file is very large.
+I'm not including the weights or the exact word list used, although it is a subset of the words linked above, for two reasons: first, this challenge was given to me by a company, and I'd like 
+to maintain some semblance of fairness; second, the weights file is very large.
 
