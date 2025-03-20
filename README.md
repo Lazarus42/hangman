@@ -4,10 +4,10 @@ Many of the words in the corpus are pretty bizarre. While playing with friends o
 better but probably not above 50 - 60%. 
 
 The strategy used is:
-(1) Use a frequency-based manual strategy on word from the training set. This encodes linguistic patterns and approximates the value Pr(next_letter | game_state = (word_state, incorrect_guesses, lives_left))
+(1) Use a frequency-based manual strategy on words from the training set. This approach encodes linguistic patterns and approximates the value Pr(next_letter | game_state = (word_state, incorrect_guesses, lives_left))
 (2) Encode those (game_state, manual_prediction) into torch tensors
 (3) Train a shallow but deep transformer model on those tensors
-(4) Play with the trained model, ideally masking previously incorrect guesses to improve performance
+(4) Play with the trained model, ideally masking previous guesses to improve performance
 
 Training took around 12 hours on a v4-8 TPU generously provided by Google's TPU Research Cloud Program.
 
