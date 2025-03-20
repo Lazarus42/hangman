@@ -1,4 +1,4 @@
-Using machine learning to win about 77% of Hangman games on a subset of 5K words from a collection of [479K English words](https://github.com/dwyl/english-words/tree/master). 
+This repo shows how to use machine learning to win about 77% of Hangman games on a subset of 5K words from a collection of [479K English words](https://github.com/dwyl/english-words/tree/master). 
 
 Many of the words in the corpus are pretty bizarre. While playing with friends on randomly chosen words, we won around 30% of the time. I'd suspect on a larger subset, we would have done
 better but probably not above 50 - 60%. 
